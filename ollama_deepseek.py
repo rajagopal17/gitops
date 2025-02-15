@@ -8,7 +8,7 @@ def get_ollama_response(prompt: str, model: str = "deepseek-r1:7b") -> str:
     return response["message"]["content"]
 
 # Example usage
-prompt = "Explain the revenue recognition concept in accounting in 10 sentences."
+prompt = "Explain the revenue recognition concept in accounting in 10 sentences. do not speak in first person"
 ollama_response = get_ollama_response(prompt)
 print(ollama_response)
 
