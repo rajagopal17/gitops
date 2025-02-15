@@ -1,1 +1,9 @@
-ollama
+pip install ollama
+pip install python-dotenv
+pip install pandas
+pip install openai
+pip install instructor
+pip -q install pydantic-ai
+pip -q install nest_asyncio
+pip -q install devtools
+pip install -q -U google-genai
